@@ -1,0 +1,7 @@
+frappe
+erpnext
+payments
+whites
+india_compliance
+hrms
+insights

@@ -1,0 +1,294 @@
+set -o pipefail; /usr/bin/mariadb-dump --user=_dfb7b5a2c9e9e849 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _dfb7b5a2c9e9e849 | /usr/bin/gzip >> ./white/private/backups/20250629_120002-white-database.sql.gz
+
+Backup Summary for white at 2025-06-29 12:00:03.432362
+Config  : ./white/private/backups/20250629_120002-white-site_config_backup.json 158.0B
+Database: ./white/private/backups/20250629_120002-white-database.sql.gz         968.6KiB
+Backup for Site white has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_dfb7b5a2c9e9e849 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _dfb7b5a2c9e9e849 | /usr/bin/gzip >> ./white/private/backups/20250630_120002-white-database.sql.gz
+
+Backup Summary for white at 2025-06-30 12:00:03.223334
+Config  : ./white/private/backups/20250630_120002-white-site_config_backup.json 158.0B
+Database: ./white/private/backups/20250630_120002-white-database.sql.gz         977.0KiB
+Backup for Site white has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_dfb7b5a2c9e9e849 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _dfb7b5a2c9e9e849 | /usr/bin/gzip >> ./white/private/backups/20250630_180001-white-database.sql.gz
+
+Backup Summary for white at 2025-06-30 18:00:02.736502
+Config  : ./white/private/backups/20250630_180001-white-site_config_backup.json 158.0B
+Database: ./white/private/backups/20250630_180001-white-database.sql.gz         977.0KiB
+Backup for Site white has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_dfb7b5a2c9e9e849 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _dfb7b5a2c9e9e849 | /usr/bin/gzip >> ./white/private/backups/20250701_120002-white-database.sql.gz
+
+Backup Summary for white at 2025-07-01 12:00:02.976532
+Config  : ./white/private/backups/20250701_120002-white-site_config_backup.json 158.0B
+Database: ./white/private/backups/20250701_120002-white-database.sql.gz         977.0KiB
+Backup for Site white has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_dfb7b5a2c9e9e849 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _dfb7b5a2c9e9e849 | /usr/bin/gzip >> ./white/private/backups/20250701_180002-white-database.sql.gz
+
+Backup Summary for white at 2025-07-01 18:00:03.002411
+Config  : ./white/private/backups/20250701_180002-white-site_config_backup.json 158.0B
+Database: ./white/private/backups/20250701_180002-white-database.sql.gz         982.9KiB
+Backup for Site white has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_dfb7b5a2c9e9e849 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _dfb7b5a2c9e9e849 | /usr/bin/gzip >> ./white/private/backups/20250702_120002-white-database.sql.gz
+
+Backup Summary for white at 2025-07-02 12:00:03.518770
+Config  : ./white/private/backups/20250702_120002-white-site_config_backup.json 158.0B
+Database: ./white/private/backups/20250702_120002-white-database.sql.gz         982.9KiB
+Backup for Site white has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_dfb7b5a2c9e9e849 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _dfb7b5a2c9e9e849 | /usr/bin/gzip >> ./white/private/backups/20250702_180002-white-database.sql.gz
+
+Backup Summary for white at 2025-07-02 18:00:02.894174
+Config  : ./white/private/backups/20250702_180002-white-site_config_backup.json 158.0B
+Database: ./white/private/backups/20250702_180002-white-database.sql.gz         982.9KiB
+Backup for Site white has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_dfb7b5a2c9e9e849 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _dfb7b5a2c9e9e849 | /usr/bin/gzip >> ./white/private/backups/20250703_180002-white-database.sql.gz
+
+Backup Summary for white at 2025-07-03 18:00:03.880703
+Config  : ./white/private/backups/20250703_180002-white-site_config_backup.json 158.0B
+Database: ./white/private/backups/20250703_180002-white-database.sql.gz         982.9KiB
+Backup for Site white has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_dfb7b5a2c9e9e849 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _dfb7b5a2c9e9e849 | /usr/bin/gzip >> ./white/private/backups/20250710_120002-white-database.sql.gz
+
+Backup Summary for white at 2025-07-10 12:00:03.762388
+Config  : ./white/private/backups/20250710_120002-white-site_config_backup.json 158.0B
+Database: ./white/private/backups/20250710_120002-white-database.sql.gz         982.9KiB
+Backup for Site white has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_dfb7b5a2c9e9e849 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _dfb7b5a2c9e9e849 | /usr/bin/gzip >> ./white/private/backups/20250710_180001-white-database.sql.gz
+
+Backup Summary for white at 2025-07-10 18:00:02.572103
+Config  : ./white/private/backups/20250710_180001-white-site_config_backup.json 158.0B
+Database: ./white/private/backups/20250710_180001-white-database.sql.gz         1.6MiB
+Backup for Site white has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_dfb7b5a2c9e9e849 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _dfb7b5a2c9e9e849 | /usr/bin/gzip >> ./white/private/backups/20250711_120002-white-database.sql.gz
+
+Backup Summary for white at 2025-07-11 12:00:04.016496
+Config  : ./white/private/backups/20250711_120002-white-site_config_backup.json 158.0B
+Database: ./white/private/backups/20250711_120002-white-database.sql.gz         1.6MiB
+Backup for Site white has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_dfb7b5a2c9e9e849 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _dfb7b5a2c9e9e849 | /usr/bin/gzip >> ./white/private/backups/20250711_180001-white-database.sql.gz
+
+Backup Summary for white at 2025-07-11 18:00:02.674708
+Config  : ./white/private/backups/20250711_180001-white-site_config_backup.json 158.0B
+Database: ./white/private/backups/20250711_180001-white-database.sql.gz         1.6MiB
+Backup for Site white has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_dfb7b5a2c9e9e849 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _dfb7b5a2c9e9e849 | /usr/bin/gzip >> ./white/private/backups/20250712_120002-white-database.sql.gz
+
+Backup Summary for white at 2025-07-12 12:00:03.652090
+Config  : ./white/private/backups/20250712_120002-white-site_config_backup.json 158.0B
+Database: ./white/private/backups/20250712_120002-white-database.sql.gz         1.6MiB
+Backup for Site white has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_dfb7b5a2c9e9e849 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _dfb7b5a2c9e9e849 | /usr/bin/gzip >> ./white/private/backups/20250716_120002-white-database.sql.gz
+
+Backup Summary for white at 2025-07-16 12:00:03.440308
+Config  : ./white/private/backups/20250716_120002-white-site_config_backup.json 158.0B
+Database: ./white/private/backups/20250716_120002-white-database.sql.gz         1.7MiB
+Backup for Site white has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_dfb7b5a2c9e9e849 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _dfb7b5a2c9e9e849 | /usr/bin/gzip >> ./white/private/backups/20250717_120016-white-database.sql.gz
+
+Backup Summary for white at 2025-07-17 12:00:17.814033
+Config  : ./white/private/backups/20250717_120016-white-site_config_backup.json 158.0B
+Database: ./white/private/backups/20250717_120016-white-database.sql.gz         1.7MiB
+Backup for Site white has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_dfb7b5a2c9e9e849 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _dfb7b5a2c9e9e849 | /usr/bin/gzip >> ./white/private/backups/20250717_180001-white-database.sql.gz
+
+Backup Summary for white at 2025-07-17 18:00:02.974586
+Config  : ./white/private/backups/20250717_180001-white-site_config_backup.json 158.0B
+Database: ./white/private/backups/20250717_180001-white-database.sql.gz         1.7MiB
+Backup for Site white has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_dfb7b5a2c9e9e849 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _dfb7b5a2c9e9e849 | /usr/bin/gzip >> ./white/private/backups/20250723_120002-white-database.sql.gz
+
+Backup Summary for white at 2025-07-23 12:00:03.663177
+Config  : ./white/private/backups/20250723_120002-white-site_config_backup.json 158.0B
+Database: ./white/private/backups/20250723_120002-white-database.sql.gz         1.6MiB
+Backup for Site white has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_dfb7b5a2c9e9e849 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _dfb7b5a2c9e9e849 | /usr/bin/gzip >> ./white/private/backups/20250724_120003-white-database.sql.gz
+
+Backup Summary for white at 2025-07-24 12:00:04.646843
+Config  : ./white/private/backups/20250724_120003-white-site_config_backup.json 158.0B
+Database: ./white/private/backups/20250724_120003-white-database.sql.gz         1.6MiB
+Backup for Site white has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_dfb7b5a2c9e9e849 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _dfb7b5a2c9e9e849 | /usr/bin/gzip >> ./white/private/backups/20250724_180002-white-database.sql.gz
+
+Backup Summary for white at 2025-07-24 18:00:04.127965
+Config  : ./white/private/backups/20250724_180002-white-site_config_backup.json 158.0B
+Database: ./white/private/backups/20250724_180002-white-database.sql.gz         1.6MiB
+Backup for Site white has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_dfb7b5a2c9e9e849 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _dfb7b5a2c9e9e849 | /usr/bin/gzip >> ./white/private/backups/20250725_120002-white-database.sql.gz
+
+Backup Summary for white at 2025-07-25 12:00:02.975802
+Config  : ./white/private/backups/20250725_120002-white-site_config_backup.json 158.0B
+Database: ./white/private/backups/20250725_120002-white-database.sql.gz         1.6MiB
+Backup for Site white has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_dfb7b5a2c9e9e849 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _dfb7b5a2c9e9e849 | /usr/bin/gzip >> ./white/private/backups/20250725_180001-white-database.sql.gz
+
+Backup Summary for white at 2025-07-25 18:00:02.980290
+Config  : ./white/private/backups/20250725_180001-white-site_config_backup.json 158.0B
+Database: ./white/private/backups/20250725_180001-white-database.sql.gz         1.7MiB
+Backup for Site white has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_dfb7b5a2c9e9e849 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _dfb7b5a2c9e9e849 | /usr/bin/gzip >> ./white/private/backups/20250728_120001-white-database.sql.gz
+
+Backup Summary for white at 2025-07-28 12:00:02.865405
+Config  : ./white/private/backups/20250728_120001-white-site_config_backup.json 158.0B
+Database: ./white/private/backups/20250728_120001-white-database.sql.gz         1.7MiB
+Backup for Site white has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_dfb7b5a2c9e9e849 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _dfb7b5a2c9e9e849 | /usr/bin/gzip >> ./white/private/backups/20250728_180001-white-database.sql.gz
+
+Backup Summary for white at 2025-07-28 18:00:02.950470
+Config  : ./white/private/backups/20250728_180001-white-site_config_backup.json 158.0B
+Database: ./white/private/backups/20250728_180001-white-database.sql.gz         1.7MiB
+Backup for Site white has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_dfb7b5a2c9e9e849 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _dfb7b5a2c9e9e849 | /usr/bin/gzip >> ./white/private/backups/20250729_120002-white-database.sql.gz
+
+Backup Summary for white at 2025-07-29 12:00:02.973984
+Config  : ./white/private/backups/20250729_120002-white-site_config_backup.json 158.0B
+Database: ./white/private/backups/20250729_120002-white-database.sql.gz         1.7MiB
+Backup for Site white has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_dfb7b5a2c9e9e849 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _dfb7b5a2c9e9e849 | /usr/bin/gzip >> ./white/private/backups/20250729_180002-white-database.sql.gz
+
+Backup Summary for white at 2025-07-29 18:00:03.042362
+Config  : ./white/private/backups/20250729_180002-white-site_config_backup.json 158.0B
+Database: ./white/private/backups/20250729_180002-white-database.sql.gz         1.8MiB
+Backup for Site white has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_dfb7b5a2c9e9e849 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _dfb7b5a2c9e9e849 | /usr/bin/gzip >> ./white/private/backups/20250730_120001-white-database.sql.gz
+
+Backup Summary for white at 2025-07-30 12:00:02.260394
+Config  : ./white/private/backups/20250730_120001-white-site_config_backup.json 158.0B
+Database: ./white/private/backups/20250730_120001-white-database.sql.gz         1.7MiB
+Backup for Site white has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_dfb7b5a2c9e9e849 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _dfb7b5a2c9e9e849 | /usr/bin/gzip >> ./white/private/backups/20250803_000002-white-database.sql.gz
+
+Backup Summary for white at 2025-08-03 00:00:03.087469
+Config  : ./white/private/backups/20250803_000002-white-site_config_backup.json 158.0B
+Database: ./white/private/backups/20250803_000002-white-database.sql.gz         1.7MiB
+Backup for Site white has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_dfb7b5a2c9e9e849 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _dfb7b5a2c9e9e849 | /usr/bin/gzip >> ./white/private/backups/20250812_120002-white-database.sql.gz
+
+Backup Summary for white at 2025-08-12 12:00:03.492951
+Config  : ./white/private/backups/20250812_120002-white-site_config_backup.json 158.0B
+Database: ./white/private/backups/20250812_120002-white-database.sql.gz         1.7MiB
+Backup for Site white has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_dfb7b5a2c9e9e849 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _dfb7b5a2c9e9e849 | /usr/bin/gzip >> ./white/private/backups/20250812_180002-white-database.sql.gz
+
+Backup Summary for white at 2025-08-12 18:00:03.681852
+Config  : ./white/private/backups/20250812_180002-white-site_config_backup.json 158.0B
+Database: ./white/private/backups/20250812_180002-white-database.sql.gz         1.7MiB
+Backup for Site white has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_dfb7b5a2c9e9e849 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _dfb7b5a2c9e9e849 | /usr/bin/gzip >> ./white/private/backups/20250817_120002-white-database.sql.gz
+
+Backup Summary for white at 2025-08-17 12:00:03.009097
+Config  : ./white/private/backups/20250817_120002-white-site_config_backup.json 158.0B
+Database: ./white/private/backups/20250817_120002-white-database.sql.gz         1.6MiB
+Backup for Site white has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_dfb7b5a2c9e9e849 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _dfb7b5a2c9e9e849 | /usr/bin/gzip >> ./white/private/backups/20250819_120001-white-database.sql.gz
+
+Backup Summary for white at 2025-08-19 12:00:02.731989
+Config  : ./white/private/backups/20250819_120001-white-site_config_backup.json 158.0B
+Database: ./white/private/backups/20250819_120001-white-database.sql.gz         1.6MiB
+Backup for Site white has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_dfb7b5a2c9e9e849 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _dfb7b5a2c9e9e849 | /usr/bin/gzip >> ./white/private/backups/20250819_180002-white-database.sql.gz
+
+Backup Summary for white at 2025-08-19 18:00:04.566599
+Config  : ./white/private/backups/20250819_180002-white-site_config_backup.json 158.0B
+Database: ./white/private/backups/20250819_180002-white-database.sql.gz         1.6MiB
+Backup for Site white has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_dfb7b5a2c9e9e849 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _dfb7b5a2c9e9e849 | /usr/bin/gzip >> ./white/private/backups/20250827_120003-white-database.sql.gz
+
+Backup Summary for white at 2025-08-27 12:00:05.717807
+Config  : ./white/private/backups/20250827_120003-white-site_config_backup.json 158.0B
+Database: ./white/private/backups/20250827_120003-white-database.sql.gz         1.6MiB
+Backup for Site white has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_dfb7b5a2c9e9e849 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _dfb7b5a2c9e9e849 | /usr/bin/gzip >> ./white/private/backups/20250827_180001-white-database.sql.gz
+
+Backup Summary for white at 2025-08-27 18:00:02.735721
+Config  : ./white/private/backups/20250827_180001-white-site_config_backup.json 158.0B
+Database: ./white/private/backups/20250827_180001-white-database.sql.gz         1.6MiB
+Backup for Site white has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_dfb7b5a2c9e9e849 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _dfb7b5a2c9e9e849 | /usr/bin/gzip >> ./white/private/backups/20250831_180003-white-database.sql.gz
+
+Backup Summary for white at 2025-08-31 18:00:07.274223
+Config  : ./white/private/backups/20250831_180003-white-site_config_backup.json 158.0B
+Database: ./white/private/backups/20250831_180003-white-database.sql.gz         1.6MiB
+Backup for Site white has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_dfb7b5a2c9e9e849 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _dfb7b5a2c9e9e849 | /usr/bin/gzip >> ./white/private/backups/20250904_000002-white-database.sql.gz
+
+Backup Summary for white at 2025-09-04 00:00:06.340415
+Config  : ./white/private/backups/20250904_000002-white-site_config_backup.json 158.0B
+Database: ./white/private/backups/20250904_000002-white-database.sql.gz         1.6MiB
+Backup for Site white has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_dfb7b5a2c9e9e849 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _dfb7b5a2c9e9e849 | /usr/bin/gzip >> ./white/private/backups/20250904_060003-white-database.sql.gz
+
+Backup Summary for white at 2025-09-04 06:00:05.827363
+Config  : ./white/private/backups/20250904_060003-white-site_config_backup.json 158.0B
+Database: ./white/private/backups/20250904_060003-white-database.sql.gz         1.6MiB
+Backup for Site white has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_dfb7b5a2c9e9e849 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _dfb7b5a2c9e9e849 | /usr/bin/gzip >> ./white/private/backups/20250907_120002-white-database.sql.gz
+
+Backup Summary for white at 2025-09-07 12:00:05.226813
+Config  : ./white/private/backups/20250907_120002-white-site_config_backup.json 158.0B
+Database: ./white/private/backups/20250907_120002-white-database.sql.gz         1.6MiB
+Backup for Site white has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_dfb7b5a2c9e9e849 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _dfb7b5a2c9e9e849 | /usr/bin/gzip >> ./white/private/backups/20250908_120003-white-database.sql.gz
+
+Backup Summary for white at 2025-09-08 12:00:05.804758
+Config  : ./white/private/backups/20250908_120003-white-site_config_backup.json 158.0B
+Database: ./white/private/backups/20250908_120003-white-database.sql.gz         1.6MiB
+Backup for Site white has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_dfb7b5a2c9e9e849 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _dfb7b5a2c9e9e849 | /usr/bin/gzip >> ./white/private/backups/20250909_120002-white-database.sql.gz
+
+Backup Summary for white at 2025-09-09 12:00:05.268661
+Config  : ./white/private/backups/20250909_120002-white-site_config_backup.json 158.0B
+Database: ./white/private/backups/20250909_120002-white-database.sql.gz         1.6MiB
+Backup for Site white has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_dfb7b5a2c9e9e849 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _dfb7b5a2c9e9e849 | /usr/bin/gzip >> ./white/private/backups/20250909_180002-white-database.sql.gz
+
+Backup Summary for white at 2025-09-09 18:00:03.348098
+Config  : ./white/private/backups/20250909_180002-white-site_config_backup.json 158.0B
+Database: ./white/private/backups/20250909_180002-white-database.sql.gz         1.6MiB
+Backup for Site white has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_dfb7b5a2c9e9e849 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _dfb7b5a2c9e9e849 | /usr/bin/gzip >> ./white/private/backups/20250911_120002-white-database.sql.gz
+
+Backup Summary for white at 2025-09-11 12:00:05.482916
+Config  : ./white/private/backups/20250911_120002-white-site_config_backup.json 158.0B
+Database: ./white/private/backups/20250911_120002-white-database.sql.gz         1.6MiB
+Backup for Site white has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_dfb7b5a2c9e9e849 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _dfb7b5a2c9e9e849 | /usr/bin/gzip >> ./white/private/backups/20250911_180002-white-database.sql.gz
+
+Backup Summary for white at 2025-09-11 18:00:04.736208
+Config  : ./white/private/backups/20250911_180002-white-site_config_backup.json 158.0B
+Database: ./white/private/backups/20250911_180002-white-database.sql.gz         1.7MiB
+Backup for Site white has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_dfb7b5a2c9e9e849 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _dfb7b5a2c9e9e849 | /usr/bin/gzip >> ./white/private/backups/20250914_120002-white-database.sql.gz
+
+Backup Summary for white at 2025-09-14 12:00:04.719655
+Config  : ./white/private/backups/20250914_120002-white-site_config_backup.json 158.0B
+Database: ./white/private/backups/20250914_120002-white-database.sql.gz         1.7MiB
+Backup for Site white has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_dfb7b5a2c9e9e849 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _dfb7b5a2c9e9e849 | /usr/bin/gzip >> ./white/private/backups/20250917_120002-white-database.sql.gz
+
+Backup Summary for white at 2025-09-17 12:00:05.847659
+Config  : ./white/private/backups/20250917_120002-white-site_config_backup.json 158.0B
+Database: ./white/private/backups/20250917_120002-white-database.sql.gz         1.7MiB
+Backup for Site white has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_dfb7b5a2c9e9e849 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _dfb7b5a2c9e9e849 | /usr/bin/gzip >> ./white/private/backups/20250917_180003-white-database.sql.gz
+
+Backup Summary for white at 2025-09-17 18:00:06.868094
+Config  : ./white/private/backups/20250917_180003-white-site_config_backup.json 158.0B
+Database: ./white/private/backups/20250917_180003-white-database.sql.gz         1.7MiB
+Backup for Site white has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_dfb7b5a2c9e9e849 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _dfb7b5a2c9e9e849 | /usr/bin/gzip >> ./white/private/backups/20250927_120002-white-database.sql.gz
+
+Backup Summary for white at 2025-09-27 12:00:05.102577
+Config  : ./white/private/backups/20250927_120002-white-site_config_backup.json 158.0B
+Database: ./white/private/backups/20250927_120002-white-database.sql.gz         1.7MiB
+Backup for Site white has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_dfb7b5a2c9e9e849 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _dfb7b5a2c9e9e849 | /usr/bin/gzip >> ./white/private/backups/20250930_120003-white-database.sql.gz
+
+Backup Summary for white at 2025-09-30 12:00:06.690959
+Config  : ./white/private/backups/20250930_120003-white-site_config_backup.json 158.0B
+Database: ./white/private/backups/20250930_120003-white-database.sql.gz         1.6MiB
+Backup for Site white has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_dfb7b5a2c9e9e849 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _dfb7b5a2c9e9e849 | /usr/bin/gzip >> ./white/private/backups/20251006_120002-white-database.sql.gz
+
+Backup Summary for white at 2025-10-06 12:00:05.266227
+Config  : ./white/private/backups/20251006_120002-white-site_config_backup.json 158.0B
+Database: ./white/private/backups/20251006_120002-white-database.sql.gz         1.6MiB
+Backup for Site white has been successfully completed

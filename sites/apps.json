@@ -1,0 +1,71 @@
+{
+    "frappe": {
+        "resolution": {
+            "commit_hash": null,
+            "branch": null
+        },
+        "required": [],
+        "idx": 1,
+        "version": "15.72.3"
+    },
+    "payments": {
+        "is_repo": true,
+        "resolution": {
+            "commit_hash": "0030055aec19249dbcc267417e0e8a633378e9b6",
+            "branch": "develop"
+        },
+        "required": [],
+        "idx": 2,
+        "version": "0.0.1"
+    },
+    "erpnext": {
+        "is_repo": true,
+        "resolution": {
+            "commit_hash": "fcf9f82092c43147f599a2a20cf33f0d970c61b4",
+            "branch": "version-15"
+        },
+        "required": [],
+        "idx": 3,
+        "version": "15.66.1"
+    },
+    "hrms": {
+        "is_repo": true,
+        "resolution": {
+            "commit_hash": "7a4563cca60daedb7a3253dd75a700cdbfcd93c5",
+            "branch": "develop"
+        },
+        "required": [],
+        "idx": 4,
+        "version": "16.0.0-dev"
+    },
+    "insights": {
+        "is_repo": true,
+        "resolution": {
+            "commit_hash": "6c9d4e89c8f81dbf1d738e9af4870b0e87eb7f90",
+            "branch": "develop"
+        },
+        "required": [],
+        "idx": 5,
+        "version": "3.0.26"
+    },
+    "india_compliance": {
+        "is_repo": true,
+        "resolution": {
+            "commit_hash": "8ad2956570fb68ebc1e573d222be951fd9870530",
+            "branch": "v15.19.3"
+        },
+        "required": [],
+        "idx": 6,
+        "version": "15.19.3"
+    },
+    "whites": {
+        "is_repo": true,
+        "resolution": {
+            "commit_hash": "aec6525cc2bd717f5b00908d9436d77b792f16d1",
+            "branch": "develop"
+        },
+        "required": [],
+        "idx": 7,
+        "version": "0.0.1"
+    }
+}

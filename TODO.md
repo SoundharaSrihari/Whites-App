@@ -1,0 +1,4 @@
+- [x] Update whites.js to fix announcement bar position and motion
+  - [x] Change position to fixed below navbar
+  - [x] Replace marquee with CSS animation
+  - [x] Ensure persistence on navigation

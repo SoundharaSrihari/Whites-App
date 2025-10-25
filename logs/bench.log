@@ -1,0 +1,615 @@
+2025-06-28 06:33:50,042 DEBUG cd newbench && python3 -m venv env
+2025-06-28 06:33:53,162 DEBUG cd newbench && /home/nokia/newbench/env/bin/python -m pip install --quiet --upgrade pip
+2025-06-28 06:33:57,090 DEBUG cd newbench && /home/nokia/newbench/env/bin/python -m pip install --quiet wheel
+2025-06-28 06:34:00,171 LOG Getting frappe
+2025-06-28 06:34:00,171 DEBUG cd newbench/apps && git clone https://github.com/frappe/frappe.git --branch version-15 --depth 1 --origin upstream
+2025-06-28 06:34:08,347 LOG Installing frappe
+2025-06-28 06:34:08,348 DEBUG cd /home/nokia/newbench && /home/nokia/newbench/env/bin/python -m pip install --quiet --upgrade -e /home/nokia/newbench/apps/frappe 
+2025-06-28 06:35:58,915 DEBUG cd /home/nokia/newbench/apps/frappe && yarn install --check-files
+2025-06-28 06:36:35,148 DEBUG cd newbench && bench build
+2025-06-28 06:36:35,280 INFO /usr/local/bin/bench build
+2025-06-28 06:36:53,049 LOG setting up backups
+2025-06-28 06:36:53,060 LOG backups were set up
+2025-06-28 06:36:53,060 INFO Bench newbench initialized
+2025-06-28 06:38:53,678 INFO /usr/local/bin/bench new-site white
+2025-06-28 06:40:05,453 INFO /usr/local/bin/bench get-app payments
+2025-06-28 06:40:06,192 LOG Getting payments
+2025-06-28 06:40:06,192 DEBUG cd ./apps && git clone https://github.com/frappe/payments.git  --depth 1 --origin upstream
+2025-06-28 06:40:07,786 LOG Installing payments
+2025-06-28 06:40:07,787 DEBUG cd /home/nokia/newbench && /home/nokia/newbench/env/bin/python -m pip install --quiet --upgrade -e /home/nokia/newbench/apps/payments 
+2025-06-28 06:40:17,036 DEBUG bench build --app payments
+2025-06-28 06:40:17,171 INFO /usr/local/bin/bench build --app payments
+2025-06-28 06:40:22,554 INFO /usr/local/bin/bench get-app --branch version-15 erpnext
+2025-06-28 06:40:23,119 LOG Getting erpnext
+2025-06-28 06:40:23,120 DEBUG cd ./apps && git clone https://github.com/frappe/erpnext.git --branch version-15 --depth 1 --origin upstream
+2025-06-28 06:40:32,319 LOG Installing erpnext
+2025-06-28 06:40:32,319 DEBUG cd /home/nokia/newbench && /home/nokia/newbench/env/bin/python -m pip install --quiet --upgrade -e /home/nokia/newbench/apps/erpnext 
+2025-06-28 06:40:50,582 DEBUG cd /home/nokia/newbench/apps/erpnext && yarn install --check-files
+2025-06-28 06:40:51,553 DEBUG bench build --app erpnext
+2025-06-28 06:40:51,685 INFO /usr/local/bin/bench build --app erpnext
+2025-06-28 06:41:25,764 INFO /usr/local/bin/bench get-app --branch version-15 erpnext
+2025-06-28 06:41:56,311 INFO /usr/local/bin/bench get-app --branch version-15 erpnext
+2025-06-28 06:41:59,817 INFO App moved from apps/erpnext to archived/apps/erpnext-2025-06-28
+2025-06-28 06:41:59,819 LOG Getting erpnext
+2025-06-28 06:41:59,819 DEBUG cd ./apps && git clone https://github.com/frappe/erpnext.git --branch version-15 --depth 1 --origin upstream
+2025-06-28 06:42:06,586 LOG Installing erpnext
+2025-06-28 06:42:06,586 DEBUG cd /home/nokia/newbench && /home/nokia/newbench/env/bin/python -m pip install --quiet --upgrade -e /home/nokia/newbench/apps/erpnext 
+2025-06-28 06:42:08,845 DEBUG cd /home/nokia/newbench/apps/erpnext && yarn install --check-files
+2025-06-28 06:42:09,335 DEBUG bench build --app erpnext
+2025-06-28 06:42:09,464 INFO /usr/local/bin/bench build --app erpnext
+2025-06-28 06:42:22,371 INFO /usr/local/bin/bench get-app hrms
+2025-06-28 06:42:23,134 LOG Getting hrms
+2025-06-28 06:42:23,134 DEBUG cd ./apps && git clone https://github.com/frappe/hrms.git  --depth 1 --origin upstream
+2025-06-28 06:42:30,924 LOG Installing hrms
+2025-06-28 06:42:30,925 DEBUG cd /home/nokia/newbench && /home/nokia/newbench/env/bin/python -m pip install --quiet --upgrade -e /home/nokia/newbench/apps/hrms 
+2025-06-28 06:42:32,719 DEBUG cd /home/nokia/newbench/apps/hrms && yarn install --check-files
+2025-06-28 06:43:56,787 DEBUG bench build --app hrms
+2025-06-28 06:43:56,909 INFO /usr/local/bin/bench build --app hrms
+2025-06-28 06:45:02,923 INFO /usr/local/bin/bench --site white install-app erpnext
+2025-06-28 06:46:40,923 INFO /usr/local/bin/bench --site white install-app hrms
+2025-06-28 06:47:33,454 INFO /usr/local/bin/bench --site white install-app payments
+2025-06-28 06:48:49,914 INFO /usr/local/bin/bench start
+2025-06-28 06:48:50,257 INFO /usr/local/bin/bench schedule
+2025-06-28 06:48:50,264 INFO /usr/local/bin/bench watch
+2025-06-28 06:48:50,300 INFO /usr/local/bin/bench serve --port 8000
+2025-06-28 06:48:50,314 INFO /usr/local/bin/bench worker
+2025-06-28 06:51:16,955 INFO /usr/local/bin/bench get-app erpnext --branch version-15
+2025-06-28 06:51:22,638 INFO App moved from apps/erpnext to archived/apps/erpnext-2025-06-28_1
+2025-06-28 06:51:22,643 LOG Getting erpnext
+2025-06-28 06:51:22,643 DEBUG cd ./apps && git clone https://github.com/frappe/erpnext.git --branch version-15 --depth 1 --origin upstream
+2025-06-28 06:51:29,854 LOG Installing erpnext
+2025-06-28 06:51:29,854 DEBUG cd /home/nokia/newbench && /home/nokia/newbench/env/bin/python -m pip install --quiet --upgrade -e /home/nokia/newbench/apps/erpnext 
+2025-06-28 06:51:32,252 DEBUG cd /home/nokia/newbench/apps/erpnext && yarn install --check-files
+2025-06-28 06:51:32,760 DEBUG bench build --app erpnext
+2025-06-28 06:51:32,869 INFO /usr/local/bin/bench build --app erpnext
+2025-06-28 06:51:39,764 INFO /usr/local/bin/bench --site white install-app erpnext
+2025-06-28 06:51:56,811 INFO /usr/local/bin/bench start
+2025-06-28 06:51:57,018 INFO /usr/local/bin/bench watch
+2025-06-28 06:51:57,026 INFO /usr/local/bin/bench serve --port 8000
+2025-06-28 06:51:57,032 INFO /usr/local/bin/bench schedule
+2025-06-28 06:51:57,082 INFO /usr/local/bin/bench worker
+2025-06-28 06:53:29,865 INFO /usr/local/bin/bench --site white install-app frappe
+2025-06-28 06:53:30,742 INFO /usr/local/bin/bench --site white install-app erpnext
+2025-06-28 06:53:31,603 INFO /usr/local/bin/bench --site white install-app hrms
+2025-06-28 06:53:32,545 INFO /usr/local/bin/bench --site white install-app payments
+2025-06-28 06:53:43,073 INFO /usr/local/bin/bench start
+2025-06-28 06:53:43,293 INFO /usr/local/bin/bench schedule
+2025-06-28 06:53:43,335 INFO /usr/local/bin/bench watch
+2025-06-28 06:53:43,335 INFO /usr/local/bin/bench serve --port 8000
+2025-06-28 06:53:43,354 INFO /usr/local/bin/bench worker
+2025-06-28 06:54:16,382 INFO /usr/local/bin/bench list-sites
+2025-06-28 06:54:50,686 INFO /usr/local/bin/bench show-sites
+2025-06-28 06:54:56,346 INFO /usr/local/bin/bench frappe list-sites
+2025-06-28 06:55:47,631 INFO /usr/local/bin/bench use site white
+2025-06-28 06:56:05,650 INFO /usr/local/bin/bench use site --white
+2025-06-28 06:56:33,256 INFO /usr/local/bin/bench use white
+2025-06-28 06:56:38,934 INFO /usr/local/bin/bench restart
+2025-06-28 06:56:45,265 INFO /usr/local/bin/bench start
+2025-06-28 06:56:45,490 INFO /usr/local/bin/bench worker
+2025-06-28 06:56:45,531 INFO /usr/local/bin/bench serve --port 8000
+2025-06-28 06:56:45,532 INFO /usr/local/bin/bench watch
+2025-06-28 06:56:45,549 INFO /usr/local/bin/bench schedule
+2025-06-29 12:00:01,869 INFO /usr/local/bin/bench --verbose --site all backup
+2025-06-29 18:38:01,386 INFO /usr/local/bin/bench start
+2025-06-29 18:38:01,628 INFO /usr/local/bin/bench schedule
+2025-06-29 18:38:01,650 INFO /usr/local/bin/bench serve --port 8000
+2025-06-29 18:38:01,655 INFO /usr/local/bin/bench watch
+2025-06-29 18:38:01,665 INFO /usr/local/bin/bench worker
+2025-06-29 18:41:01,177 INFO /usr/local/bin/bench start
+2025-06-29 18:41:07,482 INFO /usr/local/bin/bench start
+2025-06-29 18:41:24,521 INFO /usr/local/bin/bench start
+2025-06-29 18:41:59,398 INFO /usr/local/bin/bench stop
+2025-06-29 18:54:43,447 INFO /usr/local/bin/bench start
+2025-06-29 18:56:05,882 INFO /usr/local/bin/bench start
+2025-06-29 18:57:08,024 INFO /usr/local/bin/bench start
+2025-06-29 18:57:08,230 INFO /usr/local/bin/bench serve --port 8000
+2025-06-29 18:57:08,233 INFO /usr/local/bin/bench schedule
+2025-06-29 18:57:08,288 INFO /usr/local/bin/bench watch
+2025-06-29 18:57:08,293 INFO /usr/local/bin/bench worker
+2025-06-30 12:00:01,399 INFO /usr/local/bin/bench --verbose --site all backup
+2025-06-30 18:00:01,451 INFO /usr/local/bin/bench --verbose --site all backup
+2025-06-30 18:02:08,834 INFO /usr/local/bin/bench start
+2025-06-30 18:02:09,068 INFO /usr/local/bin/bench watch
+2025-06-30 18:02:09,079 INFO /usr/local/bin/bench serve --port 8000
+2025-06-30 18:02:09,079 INFO /usr/local/bin/bench schedule
+2025-06-30 18:02:09,109 INFO /usr/local/bin/bench worker
+2025-07-01 12:00:01,575 INFO /usr/local/bin/bench --verbose --site all backup
+2025-07-01 12:09:14,184 INFO /usr/local/bin/bench start
+2025-07-01 12:09:14,430 INFO /usr/local/bin/bench serve --port 8000
+2025-07-01 12:09:14,432 INFO /usr/local/bin/bench schedule
+2025-07-01 12:09:14,460 INFO /usr/local/bin/bench worker
+2025-07-01 12:09:14,474 INFO /usr/local/bin/bench watch
+2025-07-01 12:09:54,042 INFO /usr/local/bin/bench start
+2025-07-01 12:09:54,248 INFO /usr/local/bin/bench serve --port 8000
+2025-07-01 12:09:54,248 INFO /usr/local/bin/bench watch
+2025-07-01 12:09:54,252 INFO /usr/local/bin/bench schedule
+2025-07-01 12:09:54,312 INFO /usr/local/bin/bench worker
+2025-07-01 18:00:01,758 INFO /usr/local/bin/bench --verbose --site all backup
+2025-07-02 12:00:02,018 INFO /usr/local/bin/bench --verbose --site all backup
+2025-07-02 18:00:01,500 INFO /usr/local/bin/bench --verbose --site all backup
+2025-07-03 18:00:02,083 INFO /usr/local/bin/bench --verbose --site all backup
+2025-07-10 12:00:01,935 INFO /usr/local/bin/bench --verbose --site all backup
+2025-07-10 12:26:31,436 INFO /usr/local/bin/bench get-app https://github.com/frappe/insights.git
+2025-07-10 12:26:31,442 LOG Getting insights
+2025-07-10 12:26:31,442 DEBUG cd ./apps && git clone https://github.com/frappe/insights.git  --depth 1 --origin upstream
+2025-07-10 12:26:36,915 LOG Installing insights
+2025-07-10 12:26:36,916 DEBUG cd /home/nokia/newbench && /home/nokia/newbench/env/bin/python -m pip install --quiet --upgrade -e /home/nokia/newbench/apps/insights 
+2025-07-10 12:27:07,493 DEBUG cd /home/nokia/newbench/apps/insights && yarn install --check-files
+2025-07-10 12:27:33,714 DEBUG bench build --app insights
+2025-07-10 12:27:33,796 INFO /usr/local/bin/bench build --app insights
+2025-07-10 12:28:03,898 INFO A newer version of bench is available: 5.25.7 → 5.25.9
+2025-07-10 14:25:32,855 INFO /usr/local/bin/bench --site white install-app insights
+2025-07-10 14:27:04,387 INFO /usr/local/bin/bench start
+2025-07-10 14:27:04,636 INFO /usr/local/bin/bench schedule
+2025-07-10 14:27:04,636 INFO /usr/local/bin/bench serve --port 8000
+2025-07-10 14:27:04,637 INFO /usr/local/bin/bench watch
+2025-07-10 14:27:04,694 INFO /usr/local/bin/bench worker
+2025-07-10 14:28:57,743 INFO /usr/local/bin/bench --site white add-to-hosts
+2025-07-10 14:29:22,345 INFO /usr/local/bin/bench start
+2025-07-10 14:29:22,553 INFO /usr/local/bin/bench worker
+2025-07-10 14:29:22,574 INFO /usr/local/bin/bench schedule
+2025-07-10 14:29:22,595 INFO /usr/local/bin/bench watch
+2025-07-10 14:29:22,609 INFO /usr/local/bin/bench serve --port 8000
+2025-07-10 15:26:03,216 INFO /usr/local/bin/bench get-app https://github.com/resilient-tech/india-compliance.git
+2025-07-10 15:26:03,225 LOG Getting india-compliance
+2025-07-10 15:26:03,225 DEBUG cd ./apps && git clone https://github.com/resilient-tech/india-compliance.git  --depth 1 --origin upstream
+2025-07-10 15:26:05,252 LOG Installing india_compliance
+2025-07-10 15:26:05,253 DEBUG cd /home/nokia/newbench && /home/nokia/newbench/env/bin/python -m pip install --quiet --upgrade -e /home/nokia/newbench/apps/india_compliance 
+2025-07-10 15:26:11,236 DEBUG bench build --app india_compliance
+2025-07-10 15:26:11,348 INFO /usr/local/bin/bench build --app india_compliance
+2025-07-10 15:26:14,330 INFO A newer version of bench is available: 5.25.7 → 5.25.9
+2025-07-10 15:27:01,872 INFO /usr/local/bin/bench --site white install-app india_compliance
+2025-07-10 15:33:08,984 INFO /usr/local/bin/bench get-app https://github.com/resilient-tech/india-compliance.git
+2025-07-10 15:33:08,991 LOG Getting india-compliance
+2025-07-10 15:33:08,991 DEBUG cd ./apps && git clone https://github.com/resilient-tech/india-compliance.git  --depth 1 --origin upstream
+2025-07-10 15:33:11,004 LOG Installing india_compliance
+2025-07-10 15:33:11,004 DEBUG cd /home/nokia/newbench && /home/nokia/newbench/env/bin/python -m pip install --quiet --upgrade -e /home/nokia/newbench/apps/india_compliance 
+2025-07-10 15:33:13,595 DEBUG bench build --app india_compliance
+2025-07-10 15:33:13,705 INFO /usr/local/bin/bench build --app india_compliance
+2025-07-10 15:33:16,453 INFO A newer version of bench is available: 5.25.7 → 5.25.9
+2025-07-10 15:34:25,062 INFO /usr/local/bin/bench version india_compliance
+2025-07-10 15:35:37,867 INFO /usr/local/bin/bench version --app india_compliance
+2025-07-10 15:35:49,430 INFO /usr/local/bin/bench version india_compliance
+2025-07-10 15:36:08,517 INFO /usr/local/bin/bench version
+2025-07-10 15:40:28,329 INFO /usr/local/bin/bench get-app --branch v15.19.3 https://github.com/resilient-tech/india-compliance.git
+2025-07-10 15:40:28,336 LOG Getting india-compliance
+2025-07-10 15:40:28,336 DEBUG cd ./apps && git clone https://github.com/resilient-tech/india-compliance.git --branch v15.19.3 --depth 1 --origin upstream
+2025-07-10 15:40:30,447 LOG Installing india_compliance
+2025-07-10 15:40:30,448 DEBUG cd /home/nokia/newbench && /home/nokia/newbench/env/bin/python -m pip install --quiet --upgrade -e /home/nokia/newbench/apps/india_compliance 
+2025-07-10 15:40:32,465 DEBUG bench build --app india_compliance
+2025-07-10 15:40:32,606 INFO /usr/local/bin/bench build --app india_compliance
+2025-07-10 15:40:35,411 INFO A newer version of bench is available: 5.25.7 → 5.25.9
+2025-07-10 15:41:04,009 INFO /usr/local/bin/bench --site white install-app india_compliance
+2025-07-10 15:42:07,111 INFO /usr/local/bin/bench start
+2025-07-10 15:42:07,317 INFO /usr/local/bin/bench schedule
+2025-07-10 15:42:07,318 INFO /usr/local/bin/bench serve --port 8000
+2025-07-10 15:42:07,366 INFO /usr/local/bin/bench worker
+2025-07-10 15:42:07,377 INFO /usr/local/bin/bench watch
+2025-07-10 17:55:49,034 INFO /usr/local/bin/bench set-config -g server_script_enabled 1
+2025-07-10 17:56:04,134 INFO /usr/local/bin/bench start
+2025-07-10 17:56:04,329 INFO /usr/local/bin/bench watch
+2025-07-10 17:56:04,371 INFO /usr/local/bin/bench serve --port 8000
+2025-07-10 17:56:04,374 INFO /usr/local/bin/bench schedule
+2025-07-10 17:56:04,377 INFO /usr/local/bin/bench worker
+2025-07-10 18:00:01,470 INFO /usr/local/bin/bench --verbose --site all backup
+2025-07-10 18:22:04,299 INFO /usr/local/bin/bench new-app white
+2025-07-10 18:22:04,301 LOG creating new app white
+2025-07-10 18:22:04,654 WARNING /usr/local/bin/bench new-app white executed with exit code 1
+2025-07-10 18:22:04,816 INFO A newer version of bench is available: 5.25.7 → 5.25.9
+2025-07-10 18:22:21,245 INFO /usr/local/bin/bench new-app whites
+2025-07-10 18:22:21,248 LOG creating new app whites
+2025-07-10 18:23:49,045 LOG Installing whites
+2025-07-10 18:23:49,046 DEBUG cd /home/nokia/newbench && /home/nokia/newbench/env/bin/python -m pip install --quiet --upgrade -e /home/nokia/newbench/apps/whites 
+2025-07-10 18:23:50,302 DEBUG bench build --app whites
+2025-07-10 18:23:50,385 INFO /usr/local/bin/bench build --app whites
+2025-07-10 18:23:51,915 INFO A newer version of bench is available: 5.25.7 → 5.25.9
+2025-07-10 18:24:52,458 INFO /usr/local/bin/bench start
+2025-07-10 18:24:52,620 INFO /usr/local/bin/bench watch
+2025-07-10 18:24:52,621 INFO /usr/local/bin/bench worker
+2025-07-10 18:24:52,624 INFO /usr/local/bin/bench schedule
+2025-07-10 18:24:52,650 INFO /usr/local/bin/bench serve --port 8000
+2025-07-10 18:26:42,745 INFO /usr/local/bin/bench --site white install-app whites
+2025-07-10 18:26:54,309 INFO /usr/local/bin/bench start
+2025-07-10 18:26:54,469 INFO /usr/local/bin/bench serve --port 8000
+2025-07-10 18:26:54,470 INFO /usr/local/bin/bench worker
+2025-07-10 18:26:54,505 INFO /usr/local/bin/bench watch
+2025-07-10 18:26:54,516 INFO /usr/local/bin/bench schedule
+2025-07-10 18:47:26,104 INFO /usr/local/bin/bench start
+2025-07-10 18:47:26,319 INFO /usr/local/bin/bench serve --port 8000
+2025-07-10 18:47:26,345 INFO /usr/local/bin/bench watch
+2025-07-10 18:47:26,347 INFO /usr/local/bin/bench schedule
+2025-07-10 18:47:26,372 INFO /usr/local/bin/bench worker
+2025-07-11 12:00:01,680 INFO /usr/local/bin/bench --verbose --site all backup
+2025-07-11 17:26:08,560 INFO /usr/local/bin/bench start
+2025-07-11 17:26:08,823 INFO /usr/local/bin/bench watch
+2025-07-11 17:26:08,826 INFO /usr/local/bin/bench schedule
+2025-07-11 17:26:08,833 INFO /usr/local/bin/bench serve --port 8000
+2025-07-11 17:26:08,846 INFO /usr/local/bin/bench worker
+2025-07-11 17:56:52,350 INFO /usr/local/bin/bench build --app whites
+2025-07-11 17:57:22,366 INFO /usr/local/bin/bench --site white migrate
+2025-07-11 18:00:01,229 INFO /usr/local/bin/bench --verbose --site all backup
+2025-07-12 10:29:31,008 INFO /usr/local/bin/bench start
+2025-07-12 10:29:31,246 INFO /usr/local/bin/bench watch
+2025-07-12 10:29:31,255 INFO /usr/local/bin/bench serve --port 8000
+2025-07-12 10:29:31,290 INFO /usr/local/bin/bench schedule
+2025-07-12 10:29:31,304 INFO /usr/local/bin/bench worker
+2025-07-12 12:00:02,054 INFO /usr/local/bin/bench --verbose --site all backup
+2025-07-13 08:19:31,009 INFO /usr/local/bin/bench start
+2025-07-13 08:19:31,285 INFO /usr/local/bin/bench watch
+2025-07-13 08:19:31,293 INFO /usr/local/bin/bench worker
+2025-07-13 08:19:31,304 INFO /usr/local/bin/bench schedule
+2025-07-13 08:19:31,341 INFO /usr/local/bin/bench serve --port 8000
+2025-07-13 08:22:36,005 INFO /usr/local/bin/bench start
+2025-07-13 08:22:36,215 INFO /usr/local/bin/bench worker
+2025-07-13 08:22:36,220 INFO /usr/local/bin/bench serve --port 8000
+2025-07-13 08:22:36,258 INFO /usr/local/bin/bench schedule
+2025-07-13 08:22:36,271 INFO /usr/local/bin/bench watch
+2025-07-13 19:01:09,872 INFO /usr/local/bin/bench start
+2025-07-13 19:01:10,117 INFO /usr/local/bin/bench serve --port 8000
+2025-07-13 19:01:10,119 INFO /usr/local/bin/bench worker
+2025-07-13 19:01:10,169 INFO /usr/local/bin/bench watch
+2025-07-13 19:01:10,172 INFO /usr/local/bin/bench schedule
+2025-07-13 19:33:12,621 INFO /usr/local/bin/bench start
+2025-07-13 19:33:12,838 INFO /usr/local/bin/bench worker
+2025-07-13 19:33:12,850 INFO /usr/local/bin/bench serve --port 8000
+2025-07-13 19:33:12,857 INFO /usr/local/bin/bench schedule
+2025-07-13 19:33:12,887 INFO /usr/local/bin/bench watch
+2025-07-14 20:30:20,862 INFO /usr/local/bin/bench start
+2025-07-14 20:30:21,101 INFO /usr/local/bin/bench worker
+2025-07-14 20:30:21,101 INFO /usr/local/bin/bench serve --port 8000
+2025-07-14 20:30:21,101 INFO /usr/local/bin/bench schedule
+2025-07-14 20:30:21,143 INFO /usr/local/bin/bench watch
+2025-07-16 11:32:35,158 INFO /usr/local/bin/bench start
+2025-07-16 11:32:35,396 INFO /usr/local/bin/bench worker
+2025-07-16 11:32:35,398 INFO /usr/local/bin/bench watch
+2025-07-16 11:32:35,399 INFO /usr/local/bin/bench schedule
+2025-07-16 11:32:35,437 INFO /usr/local/bin/bench serve --port 8000
+2025-07-16 11:37:42,399 INFO /usr/local/bin/bench start
+2025-07-16 11:37:42,620 INFO /usr/local/bin/bench schedule
+2025-07-16 11:37:42,664 INFO /usr/local/bin/bench worker
+2025-07-16 11:37:42,673 INFO /usr/local/bin/bench serve --port 8000
+2025-07-16 11:37:42,676 INFO /usr/local/bin/bench watch
+2025-07-16 12:00:02,050 INFO /usr/local/bin/bench --verbose --site all backup
+2025-07-17 12:00:15,674 INFO /usr/local/bin/bench --verbose --site all backup
+2025-07-17 18:00:01,417 INFO /usr/local/bin/bench --verbose --site all backup
+2025-07-23 10:48:48,883 INFO /usr/local/bin/bench start
+2025-07-23 10:48:49,147 INFO /usr/local/bin/bench worker
+2025-07-23 10:48:49,147 INFO /usr/local/bin/bench schedule
+2025-07-23 10:48:49,156 INFO /usr/local/bin/bench watch
+2025-07-23 10:48:49,199 INFO /usr/local/bin/bench serve --port 8000
+2025-07-23 12:00:02,083 INFO /usr/local/bin/bench --verbose --site all backup
+2025-07-24 12:00:02,122 INFO /usr/local/bin/bench --verbose --site all backup
+2025-07-24 18:00:01,534 INFO /usr/local/bin/bench --verbose --site all backup
+2025-07-25 11:03:28,659 INFO /usr/local/bin/bench start
+2025-07-25 11:03:28,847 INFO /usr/local/bin/bench schedule
+2025-07-25 11:03:28,855 INFO /usr/local/bin/bench serve --port 8000
+2025-07-25 11:03:28,867 INFO /usr/local/bin/bench worker
+2025-07-25 11:03:28,874 INFO /usr/local/bin/bench watch
+2025-07-25 12:00:01,888 INFO /usr/local/bin/bench --verbose --site all backup
+2025-07-25 17:41:52,360 INFO /usr/local/bin/bench --site white add_to_hosts
+2025-07-25 17:42:10,729 INFO /usr/local/bin/bench --site white add-to-hosts
+2025-07-25 17:42:22,410 INFO /usr/local/bin/bench use white
+2025-07-25 17:42:40,485 INFO /usr/local/bin/bench start
+2025-07-25 17:42:40,699 INFO /usr/local/bin/bench schedule
+2025-07-25 17:42:40,707 INFO /usr/local/bin/bench watch
+2025-07-25 17:42:40,747 INFO /usr/local/bin/bench serve --port 8000
+2025-07-25 17:42:40,762 INFO /usr/local/bin/bench worker
+2025-07-25 18:00:01,508 INFO /usr/local/bin/bench --verbose --site all backup
+2025-07-26 11:23:51,047 INFO /usr/local/bin/bench start
+2025-07-26 11:23:51,301 INFO /usr/local/bin/bench watch
+2025-07-26 11:23:51,338 INFO /usr/local/bin/bench serve --port 8000
+2025-07-26 11:23:51,338 INFO /usr/local/bin/bench worker
+2025-07-26 11:23:51,340 INFO /usr/local/bin/bench schedule
+2025-07-27 18:58:37,162 INFO /usr/local/bin/bench start
+2025-07-27 18:58:37,404 INFO /usr/local/bin/bench serve --port 8000
+2025-07-27 18:58:37,409 INFO /usr/local/bin/bench watch
+2025-07-27 18:58:37,451 INFO /usr/local/bin/bench schedule
+2025-07-27 18:58:37,464 INFO /usr/local/bin/bench worker
+2025-07-28 10:12:10,505 INFO /usr/local/bin/bench start
+2025-07-28 10:12:10,687 INFO /usr/local/bin/bench serve --port 8000
+2025-07-28 10:12:10,710 INFO /usr/local/bin/bench worker
+2025-07-28 10:12:10,722 INFO /usr/local/bin/bench schedule
+2025-07-28 10:12:10,732 INFO /usr/local/bin/bench watch
+2025-07-28 12:00:01,419 INFO /usr/local/bin/bench --verbose --site all backup
+2025-07-28 18:00:01,581 INFO /usr/local/bin/bench --verbose --site all backup
+2025-07-29 09:53:49,820 INFO /usr/local/bin/bench start
+2025-07-29 09:53:50,096 INFO /usr/local/bin/bench worker
+2025-07-29 09:53:50,096 INFO /usr/local/bin/bench serve --port 8000
+2025-07-29 09:53:50,097 INFO /usr/local/bin/bench schedule
+2025-07-29 09:53:50,134 INFO /usr/local/bin/bench watch
+2025-07-29 09:54:01,910 INFO /usr/local/bin/bench start
+2025-07-29 09:54:02,118 INFO /usr/local/bin/bench watch
+2025-07-29 09:54:02,119 INFO /usr/local/bin/bench serve --port 8000
+2025-07-29 09:54:02,166 INFO /usr/local/bin/bench worker
+2025-07-29 09:54:02,177 INFO /usr/local/bin/bench schedule
+2025-07-29 12:00:01,889 INFO /usr/local/bin/bench --verbose --site all backup
+2025-07-29 16:28:06,686 INFO /usr/local/bin/bench build
+2025-07-29 16:31:44,406 INFO /usr/local/bin/bench build
+2025-07-29 16:39:56,195 INFO /usr/local/bin/bench build
+2025-07-29 16:41:40,620 INFO /usr/local/bin/bench restart
+2025-07-29 16:41:41,053 INFO A newer version of bench is available: 5.25.7 → 5.25.9
+2025-07-29 16:41:49,200 INFO /usr/local/bin/bench start
+2025-07-29 16:41:49,429 INFO /usr/local/bin/bench watch
+2025-07-29 16:41:49,431 INFO /usr/local/bin/bench serve --port 8000
+2025-07-29 16:41:49,441 INFO /usr/local/bin/bench worker
+2025-07-29 16:41:49,451 INFO /usr/local/bin/bench schedule
+2025-07-29 16:57:39,237 INFO /usr/local/bin/bench build
+2025-07-29 16:58:49,751 INFO /usr/local/bin/bench clear-cache
+2025-07-29 16:58:56,332 INFO /usr/local/bin/bench restart
+2025-07-29 16:58:56,501 INFO A newer version of bench is available: 5.25.7 → 5.25.9
+2025-07-29 17:02:12,429 INFO /usr/local/bin/bench restart
+2025-07-29 17:02:12,554 INFO A newer version of bench is available: 5.25.7 → 5.25.9
+2025-07-29 17:08:59,999 INFO /usr/local/bin/bench clear-cache
+2025-07-29 17:09:13,245 INFO /usr/local/bin/bench build
+2025-07-29 17:20:08,101 INFO /usr/local/bin/bench restart
+2025-07-29 17:20:08,266 INFO A newer version of bench is available: 5.25.7 → 5.25.9
+2025-07-29 17:20:41,017 INFO /usr/local/bin/bench restart
+2025-07-29 17:20:41,152 INFO A newer version of bench is available: 5.25.7 → 5.25.9
+2025-07-29 17:21:52,064 INFO /usr/local/bin/bench build
+2025-07-29 17:23:40,361 INFO /usr/local/bin/bench build --app whites
+2025-07-29 17:24:30,482 INFO /usr/local/bin/bench start
+2025-07-29 17:24:30,678 INFO /usr/local/bin/bench serve --port 8000
+2025-07-29 17:24:30,678 INFO /usr/local/bin/bench schedule
+2025-07-29 17:24:30,698 INFO /usr/local/bin/bench watch
+2025-07-29 17:24:30,724 INFO /usr/local/bin/bench worker
+2025-07-29 17:24:55,179 INFO /usr/local/bin/bench migrate
+2025-07-29 17:26:22,097 INFO /usr/local/bin/bench clear-cache
+2025-07-29 17:26:27,971 INFO /usr/local/bin/bench restart
+2025-07-29 17:26:28,096 INFO A newer version of bench is available: 5.25.7 → 5.25.9
+2025-07-29 17:28:38,535 INFO /usr/local/bin/bench build --app whites
+2025-07-29 17:29:02,576 INFO /usr/local/bin/bench build --app whites
+2025-07-29 17:29:09,481 INFO /usr/local/bin/bench restart
+2025-07-29 17:29:09,606 INFO A newer version of bench is available: 5.25.7 → 5.25.9
+2025-07-29 17:30:03,081 INFO /usr/local/bin/bench build --app whites
+2025-07-29 17:30:06,305 INFO /usr/local/bin/bench restart
+2025-07-29 17:30:06,433 INFO A newer version of bench is available: 5.25.7 → 5.25.9
+2025-07-29 17:30:38,708 INFO /usr/local/bin/bench build --app whites
+2025-07-29 17:30:42,012 INFO /usr/local/bin/bench restart
+2025-07-29 17:30:42,180 INFO A newer version of bench is available: 5.25.7 → 5.25.9
+2025-07-29 17:32:41,879 INFO /usr/local/bin/bench build --app whites
+2025-07-29 17:32:45,399 INFO /usr/local/bin/bench restart
+2025-07-29 17:32:45,529 INFO A newer version of bench is available: 5.25.7 → 5.25.9
+2025-07-29 17:33:34,406 INFO /usr/local/bin/bench build --app whites
+2025-07-29 17:33:37,558 INFO /usr/local/bin/bench restart
+2025-07-29 17:33:37,686 INFO A newer version of bench is available: 5.25.7 → 5.25.9
+2025-07-29 17:36:04,468 INFO /usr/local/bin/bench clear-cache
+2025-07-29 17:36:05,095 INFO /usr/local/bin/bench clear-website-cache
+2025-07-29 17:36:05,646 INFO /usr/local/bin/bench restart
+2025-07-29 17:36:05,773 INFO A newer version of bench is available: 5.25.7 → 5.25.9
+2025-07-29 17:37:26,122 INFO /usr/local/bin/bench build --app whites
+2025-07-29 17:37:32,459 INFO /usr/local/bin/bench restart
+2025-07-29 17:37:32,597 INFO A newer version of bench is available: 5.25.7 → 5.25.9
+2025-07-29 17:37:37,635 INFO /usr/local/bin/bench clear-cache
+2025-07-29 17:37:41,154 INFO /usr/local/bin/bench clear-website-cache
+2025-07-29 17:37:44,114 INFO /usr/local/bin/bench restart
+2025-07-29 17:37:44,239 INFO A newer version of bench is available: 5.25.7 → 5.25.9
+2025-07-29 17:40:07,453 INFO /usr/local/bin/bench start
+2025-07-29 17:40:07,619 INFO /usr/local/bin/bench schedule
+2025-07-29 17:40:07,622 INFO /usr/local/bin/bench serve --port 8000
+2025-07-29 17:40:07,663 INFO /usr/local/bin/bench worker
+2025-07-29 17:40:07,663 INFO /usr/local/bin/bench watch
+2025-07-29 18:00:01,710 INFO /usr/local/bin/bench --verbose --site all backup
+2025-07-29 18:34:04,268 INFO /usr/local/bin/bench restart
+2025-07-29 18:34:04,454 INFO A newer version of bench is available: 5.25.7 → 5.25.9
+2025-07-29 18:34:41,150 INFO /usr/local/bin/bench migrate
+2025-07-29 18:36:53,777 INFO /usr/local/bin/bench build
+2025-07-29 18:38:22,690 INFO /usr/local/bin/bench restart
+2025-07-29 18:38:22,854 INFO A newer version of bench is available: 5.25.7 → 5.25.9
+2025-07-30 09:29:43,753 INFO /usr/local/bin/bench start
+2025-07-30 09:29:43,997 INFO /usr/local/bin/bench serve --port 8000
+2025-07-30 09:29:44,004 INFO /usr/local/bin/bench worker
+2025-07-30 09:29:44,053 INFO /usr/local/bin/bench watch
+2025-07-30 09:29:44,054 INFO /usr/local/bin/bench schedule
+2025-07-30 09:48:28,430 INFO /usr/local/bin/bench build --app whites
+2025-07-30 09:49:38,976 INFO /usr/local/bin/bench build --app whites
+2025-07-30 12:00:01,180 INFO /usr/local/bin/bench --verbose --site all backup
+2025-07-30 13:31:26,429 INFO /usr/local/bin/bench build --app whites
+2025-07-30 14:38:16,643 INFO /usr/local/bin/bench build --app whites
+2025-07-30 14:39:14,902 INFO /usr/local/bin/bench build --app whites
+2025-08-02 23:48:48,558 INFO /usr/local/bin/bench start
+2025-08-02 23:48:48,791 INFO /usr/local/bin/bench serve --port 8000
+2025-08-02 23:48:48,797 INFO /usr/local/bin/bench schedule
+2025-08-02 23:48:48,811 INFO /usr/local/bin/bench worker
+2025-08-02 23:48:48,846 INFO /usr/local/bin/bench watch
+2025-08-03 00:00:01,618 INFO /usr/local/bin/bench --verbose --site all backup
+2025-08-03 11:14:08,221 INFO /usr/local/bin/bench start
+2025-08-03 11:14:08,500 INFO /usr/local/bin/bench worker
+2025-08-03 11:14:08,510 INFO /usr/local/bin/bench serve --port 8000
+2025-08-03 11:14:08,513 INFO /usr/local/bin/bench watch
+2025-08-03 11:14:08,529 INFO /usr/local/bin/bench schedule
+2025-08-03 11:14:21,031 INFO /usr/local/bin/bench start
+2025-08-03 11:14:21,267 INFO /usr/local/bin/bench watch
+2025-08-03 11:14:21,293 INFO /usr/local/bin/bench schedule
+2025-08-03 11:14:21,312 INFO /usr/local/bin/bench serve --port 8000
+2025-08-03 11:14:21,312 INFO /usr/local/bin/bench worker
+2025-08-03 11:29:50,600 INFO /usr/local/bin/bench build --app whites
+2025-08-03 11:29:52,718 INFO /usr/local/bin/bench clear-cache
+2025-08-03 11:32:28,522 INFO /usr/local/bin/bench build --app whites
+2025-08-03 11:32:32,117 INFO /usr/local/bin/bench clear-cache
+2025-08-03 11:35:28,124 INFO /usr/local/bin/bench build --app whites
+2025-08-03 11:35:31,672 INFO /usr/local/bin/bench clear-cache
+2025-08-03 11:37:46,988 INFO /usr/local/bin/bench build --app whites
+2025-08-03 11:37:50,534 INFO /usr/local/bin/bench clear-cache
+2025-08-03 11:40:47,494 INFO /usr/local/bin/bench build --app whites
+2025-08-03 11:40:50,583 INFO /usr/local/bin/bench clear-cache
+2025-08-03 12:22:03,885 INFO /usr/local/bin/bench start
+2025-08-03 12:22:04,142 INFO /usr/local/bin/bench serve --port 8000
+2025-08-03 12:22:04,147 INFO /usr/local/bin/bench watch
+2025-08-03 12:22:04,154 INFO /usr/local/bin/bench worker
+2025-08-03 12:22:04,159 INFO /usr/local/bin/bench schedule
+2025-08-12 12:00:01,475 INFO /usr/local/bin/bench --verbose --site all backup
+2025-08-12 18:00:01,442 INFO /usr/local/bin/bench --verbose --site all backup
+2025-08-17 11:22:04,838 INFO /usr/local/bin/bench start
+2025-08-17 11:22:05,024 INFO /usr/local/bin/bench worker
+2025-08-17 11:22:05,038 INFO /usr/local/bin/bench watch
+2025-08-17 11:22:05,045 INFO /usr/local/bin/bench schedule
+2025-08-17 11:22:05,049 INFO /usr/local/bin/bench serve --port 8000
+2025-08-17 11:22:20,424 INFO /usr/local/bin/bench start
+2025-08-17 11:22:20,599 INFO /usr/local/bin/bench watch
+2025-08-17 11:22:20,601 INFO /usr/local/bin/bench serve --port 8000
+2025-08-17 11:22:20,630 INFO /usr/local/bin/bench schedule
+2025-08-17 11:22:20,633 INFO /usr/local/bin/bench worker
+2025-08-17 12:00:01,786 INFO /usr/local/bin/bench --verbose --site all backup
+2025-08-19 12:00:01,185 INFO /usr/local/bin/bench --verbose --site all backup
+2025-08-19 18:00:01,295 INFO /usr/local/bin/bench --verbose --site all backup
+2025-08-23 13:37:25,994 INFO /usr/local/bin/bench start
+2025-08-23 13:37:26,435 INFO /usr/local/bin/bench schedule
+2025-08-23 13:37:26,451 INFO /usr/local/bin/bench watch
+2025-08-23 13:37:26,533 INFO /usr/local/bin/bench serve --port 8000
+2025-08-23 13:37:26,536 INFO /usr/local/bin/bench worker
+2025-08-23 13:38:23,032 INFO /usr/local/bin/bench start
+2025-08-23 13:38:23,566 INFO /usr/local/bin/bench serve --port 8000
+2025-08-23 13:38:23,601 INFO /usr/local/bin/bench schedule
+2025-08-23 13:38:23,607 INFO /usr/local/bin/bench worker
+2025-08-23 13:38:23,630 INFO /usr/local/bin/bench watch
+2025-08-27 12:00:01,855 INFO /usr/local/bin/bench --verbose --site all backup
+2025-08-27 18:00:01,532 INFO /usr/local/bin/bench --verbose --site all backup
+2025-08-31 18:00:01,743 INFO /usr/local/bin/bench --verbose --site all backup
+2025-09-02 14:03:03,755 INFO /usr/local/bin/bench start
+2025-09-02 14:03:04,195 INFO /usr/local/bin/bench serve --port 8000
+2025-09-02 14:03:04,215 INFO /usr/local/bin/bench worker
+2025-09-02 14:03:04,282 INFO /usr/local/bin/bench schedule
+2025-09-02 14:03:04,307 INFO /usr/local/bin/bench watch
+2025-09-02 18:44:42,896 INFO /usr/local/bin/bench start
+2025-09-02 18:44:43,430 INFO /usr/local/bin/bench serve --port 8000
+2025-09-02 18:44:43,435 INFO /usr/local/bin/bench watch
+2025-09-02 18:44:43,438 INFO /usr/local/bin/bench worker
+2025-09-02 18:44:43,469 INFO /usr/local/bin/bench schedule
+2025-09-02 18:49:16,758 INFO /usr/local/bin/bench buil app -whites
+2025-09-02 18:49:24,549 INFO /usr/local/bin/bench build app -whites
+2025-09-02 18:49:30,171 INFO /usr/local/bin/bench build
+2025-09-02 18:53:54,408 INFO /usr/local/bin/bench build
+2025-09-02 18:56:30,880 INFO /usr/local/bin/bench restart
+2025-09-02 18:56:31,305 INFO A newer version of bench is available: 5.25.7 → 5.25.9
+2025-09-02 18:57:35,707 INFO /usr/local/bin/bench start
+2025-09-02 18:57:36,256 INFO /usr/local/bin/bench serve --port 8000
+2025-09-02 18:57:36,257 INFO /usr/local/bin/bench worker
+2025-09-02 18:57:36,307 INFO /usr/local/bin/bench watch
+2025-09-02 18:57:36,332 INFO /usr/local/bin/bench schedule
+2025-09-02 19:01:32,366 INFO /usr/local/bin/bench build --production
+2025-09-02 19:04:18,125 INFO /usr/local/bin/bench restart
+2025-09-02 19:04:18,500 INFO A newer version of bench is available: 5.25.7 → 5.25.9
+2025-09-02 19:07:10,139 INFO /usr/local/bin/bench build
+2025-09-02 19:09:49,981 INFO /usr/local/bin/bench restart
+2025-09-02 19:09:50,469 INFO A newer version of bench is available: 5.25.7 → 5.25.9
+2025-09-02 19:13:06,924 INFO /usr/local/bin/bench build
+2025-09-02 19:16:01,913 INFO /usr/local/bin/bench restart
+2025-09-02 19:16:02,295 INFO A newer version of bench is available: 5.25.7 → 5.25.9
+2025-09-02 19:21:53,699 INFO /usr/local/bin/bench start
+2025-09-02 19:22:06,573 INFO /usr/local/bin/bench start
+2025-09-02 19:22:07,124 INFO /usr/local/bin/bench watch
+2025-09-02 19:22:07,126 INFO /usr/local/bin/bench worker
+2025-09-02 19:22:07,139 INFO /usr/local/bin/bench schedule
+2025-09-02 19:22:07,222 INFO /usr/local/bin/bench serve --port 8000
+2025-09-04 00:00:01,546 INFO /usr/local/bin/bench --verbose --site all backup
+2025-09-04 06:00:01,952 INFO /usr/local/bin/bench --verbose --site all backup
+2025-09-07 11:09:22,475 INFO /usr/local/bin/bench start
+2025-09-07 11:09:22,935 INFO /usr/local/bin/bench serve --port 8000
+2025-09-07 11:09:22,952 INFO /usr/local/bin/bench schedule
+2025-09-07 11:09:23,020 INFO /usr/local/bin/bench watch
+2025-09-07 11:09:23,026 INFO /usr/local/bin/bench worker
+2025-09-07 11:18:04,451 INFO /usr/local/bin/bench build whites
+2025-09-07 11:18:21,571 INFO /usr/local/bin/bench build white
+2025-09-07 11:18:28,589 INFO /usr/local/bin/bench build
+2025-09-07 11:21:21,265 INFO /usr/local/bin/bench restart
+2025-09-07 11:21:26,620 INFO A newer version of bench is available: 5.25.7 → 5.25.9
+2025-09-07 12:00:02,001 INFO /usr/local/bin/bench --verbose --site all backup
+2025-09-07 15:08:04,781 INFO /usr/local/bin/bench start
+2025-09-07 15:08:05,259 INFO /usr/local/bin/bench worker
+2025-09-07 15:08:05,282 INFO /usr/local/bin/bench serve --port 8000
+2025-09-07 15:08:05,284 INFO /usr/local/bin/bench watch
+2025-09-07 15:08:05,297 INFO /usr/local/bin/bench schedule
+2025-09-08 12:00:02,073 INFO /usr/local/bin/bench --verbose --site all backup
+2025-09-09 12:00:01,501 INFO /usr/local/bin/bench --verbose --site all backup
+2025-09-09 12:42:58,962 INFO /usr/local/bin/bench start
+2025-09-09 12:42:59,440 INFO /usr/local/bin/bench serve --port 8000
+2025-09-09 12:42:59,484 INFO /usr/local/bin/bench schedule
+2025-09-09 12:42:59,506 INFO /usr/local/bin/bench worker
+2025-09-09 12:42:59,533 INFO /usr/local/bin/bench watch
+2025-09-09 16:19:24,232 INFO /usr/local/bin/bench build --app whites
+2025-09-09 18:00:01,867 INFO /usr/local/bin/bench --verbose --site all backup
+2025-09-11 12:00:01,766 INFO /usr/local/bin/bench --verbose --site all backup
+2025-09-11 14:39:32,058 INFO /usr/local/bin/bench start
+2025-09-11 14:39:32,511 INFO /usr/local/bin/bench schedule
+2025-09-11 14:39:32,512 INFO /usr/local/bin/bench worker
+2025-09-11 14:39:32,599 INFO /usr/local/bin/bench serve --port 8000
+2025-09-11 14:39:32,621 INFO /usr/local/bin/bench watch
+2025-09-11 14:46:38,613 INFO /usr/local/bin/bench build --app whites
+2025-09-11 15:50:56,312 INFO /usr/local/bin/bench build --app whites
+2025-09-11 15:52:58,906 INFO /usr/local/bin/bench build --app whites
+2025-09-11 15:53:47,540 INFO /usr/local/bin/bench build --app whites
+2025-09-11 17:17:13,354 INFO /usr/local/bin/bench build --app whites
+2025-09-11 18:00:01,401 INFO /usr/local/bin/bench --verbose --site all backup
+2025-09-14 09:40:41,783 INFO /usr/local/bin/bench start
+2025-09-14 09:40:42,216 INFO /usr/local/bin/bench watch
+2025-09-14 09:40:42,219 INFO /usr/local/bin/bench serve --port 8000
+2025-09-14 09:40:42,219 INFO /usr/local/bin/bench schedule
+2025-09-14 09:40:42,315 INFO /usr/local/bin/bench worker
+2025-09-14 11:54:31,544 INFO /usr/local/bin/bench start
+2025-09-14 11:54:31,970 INFO /usr/local/bin/bench serve --port 8000
+2025-09-14 11:54:31,986 INFO /usr/local/bin/bench watch
+2025-09-14 11:54:31,987 INFO /usr/local/bin/bench worker
+2025-09-14 11:54:32,076 INFO /usr/local/bin/bench schedule
+2025-09-14 12:00:01,789 INFO /usr/local/bin/bench --verbose --site all backup
+2025-09-17 12:00:01,639 INFO /usr/local/bin/bench --verbose --site all backup
+2025-09-17 18:00:02,033 INFO /usr/local/bin/bench --verbose --site all backup
+2025-09-27 12:00:01,459 INFO /usr/local/bin/bench --verbose --site all backup
+2025-09-27 16:03:58,762 INFO /usr/local/bin/bench start
+2025-09-27 16:03:59,380 INFO /usr/local/bin/bench watch
+2025-09-27 16:03:59,383 INFO /usr/local/bin/bench worker
+2025-09-27 16:03:59,402 INFO /usr/local/bin/bench serve --port 8000
+2025-09-27 16:03:59,443 INFO /usr/local/bin/bench schedule
+2025-09-27 16:21:15,543 INFO /usr/local/bin/bench build
+2025-09-27 16:24:39,726 INFO /usr/local/bin/bench build
+2025-09-27 16:29:26,407 INFO /usr/local/bin/bench build
+2025-09-27 16:34:35,663 INFO /usr/local/bin/bench build whites
+2025-09-27 16:34:48,780 INFO /usr/local/bin/bench build --whites
+2025-09-27 16:34:54,617 INFO /usr/local/bin/bench build
+2025-09-27 16:40:04,583 INFO /usr/local/bin/bench build
+2025-09-27 16:44:29,115 INFO /usr/local/bin/bench build --app whites
+2025-09-27 16:45:09,689 INFO /usr/local/bin/bench build --app whites
+2025-09-27 16:46:10,854 INFO /usr/local/bin/bench build --app whites
+2025-09-27 16:46:59,078 INFO /usr/local/bin/bench build --app whites
+2025-09-27 16:49:35,190 INFO /usr/local/bin/bench build
+2025-09-27 19:34:52,763 INFO /usr/local/bin/bench start
+2025-09-27 19:34:53,264 INFO /usr/local/bin/bench serve --port 8000
+2025-09-27 19:34:53,285 INFO /usr/local/bin/bench watch
+2025-09-27 19:34:53,346 INFO /usr/local/bin/bench worker
+2025-09-27 19:34:53,350 INFO /usr/local/bin/bench schedule
+2025-09-30 12:00:02,163 INFO /usr/local/bin/bench --verbose --site all backup
+2025-10-06 12:00:01,545 INFO /usr/local/bin/bench --verbose --site all backup
+2025-10-06 15:53:48,453 INFO /usr/local/bin/bench start
+2025-10-06 15:53:48,703 INFO /usr/local/bin/bench watch
+2025-10-06 15:53:48,737 INFO /usr/local/bin/bench serve --port 8000
+2025-10-06 15:53:48,749 INFO /usr/local/bin/bench schedule
+2025-10-06 15:53:48,762 INFO /usr/local/bin/bench worker
+2025-10-12 22:19:39,175 INFO /usr/local/bin/bench start
+2025-10-12 22:19:39,618 INFO /usr/local/bin/bench serve --port 8000
+2025-10-12 22:19:39,638 INFO /usr/local/bin/bench watch
+2025-10-12 22:19:39,710 INFO /usr/local/bin/bench worker
+2025-10-12 22:19:39,734 INFO /usr/local/bin/bench schedule
+2025-10-15 21:45:47,890 INFO /usr/local/bin/bench start
+2025-10-15 21:45:48,380 INFO /usr/local/bin/bench serve --port 8000
+2025-10-15 21:45:48,394 INFO /usr/local/bin/bench schedule
+2025-10-15 21:45:48,464 INFO /usr/local/bin/bench watch
+2025-10-15 21:45:48,501 INFO /usr/local/bin/bench worker
+2025-10-16 13:52:03,429 INFO /usr/local/bin/bench start
+2025-10-16 13:52:03,867 INFO /usr/local/bin/bench watch
+2025-10-16 13:52:03,869 INFO /usr/local/bin/bench serve --port 8000
+2025-10-16 13:52:03,985 INFO /usr/local/bin/bench schedule
+2025-10-16 13:52:03,995 INFO /usr/local/bin/bench worker
+2025-10-16 15:40:14,229 INFO /usr/local/bin/bench start
+2025-10-16 15:40:14,627 INFO /usr/local/bin/bench schedule
+2025-10-16 15:40:14,631 INFO /usr/local/bin/bench serve --port 8000
+2025-10-16 15:40:14,720 INFO /usr/local/bin/bench watch
+2025-10-16 15:40:14,747 INFO /usr/local/bin/bench worker
+2025-10-18 20:01:20,112 INFO /usr/local/bin/bench start
+2025-10-18 20:01:20,563 INFO /usr/local/bin/bench schedule
+2025-10-18 20:01:20,571 INFO /usr/local/bin/bench worker
+2025-10-18 20:01:20,590 INFO /usr/local/bin/bench serve --port 8000
+2025-10-18 20:01:20,621 INFO /usr/local/bin/bench watch
+2025-10-25 13:27:49,702 INFO /usr/local/bin/bench start
+2025-10-25 13:27:50,383 INFO /usr/local/bin/bench serve --port 8000
+2025-10-25 13:27:50,384 INFO /usr/local/bin/bench watch
+2025-10-25 13:27:50,390 INFO /usr/local/bin/bench schedule
+2025-10-25 13:27:50,408 INFO /usr/local/bin/bench worker
